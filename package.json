@@ -1,0 +1,23 @@
+{
+  "name": "focus-flow-lab",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "条件表单焦点流程实验页：状态搜索、最短按键序列与焦点陷阱分析",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.19",
+    "svelte-check": "^4.0.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
